@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Meown Blog</title>
+    <link rel="stylesheet" href="index.css">
+    <!-- Add lightbox plugin CSS -->
+    <link rel="stylesheet" href="lightbox.min.css">
+    <!-- jQuery library -->
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <!-- Add lightbox plugin JS -->
+    <script src="lightbox.min.js"></script>
+    
+</head>
+<body>
+    <header>
+        <h1>Meown Blog</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="blog.html">Blog</a></li>
+			<li><a href="petservice.html">pet service</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+			
+        </ul>
+    </nav>
+
+    <div class="content">
+        <h2>About Cats</h2>
+        <p class="text">Cats are domesticated animals. ‘Felis catus’ is its scientific term. It is a small animal from the 
+		"Felidae" family. The cat is the only member of this family that has undergone domestication.<br> This family of animals
+		also comprises tigers, panthers, and other animals. Domesticated cats are popularly loved because of their cuteness and playful nature. 
+		<br>Playing with them makes you feel less stressed and anxious.</p>
+        <h3>Different Types of Cats</h3>
+        <p class="text">There are three different types of cats: domestic cats, farm cats, and feral cats. People all across the world love to pet
+		house cats. <br>In various customs and cultures, such as the Japanese culture, cats are revered. Cats are smart animals. 
+		They are expert hunters of snakes, rats, etc. <br>Cats are extremely slothful pets; they sleep for lengthy periods of time each day 
+		and are kind to those they know and trust. Cats are not particularly sociable. <br>Its child is known as a "kitten." 
+		The same family as tigers and panthers includes cats. Cats are omnivores because they eat both plants and animals for food.</p>
+        
+        <!-- Gallery with lightbox -->
+        <div class="gallery">
+            <div class="gallery-item">
+                <a href="cat" data-lightbox="gallery"><img src="https://www.catster.com/wp-content/uploads/2015/06/600-cat-claws.jpg" alt="Cat 1"></a>
+            </div>
+            <div class="gallery-item">
+                <a href="cat2.jpg" data-lightbox="gallery"><img src="https://petskb.com/wp-content/uploads/2020/12/Why-do-cats-shake-their-paws.jpg" alt="Cat 2"></a>
+            </div>
+            <div class="gallery-item">
+                <a href="cat3.jpg" data-lightbox="gallery"><img src="https://how-do-it.com/wp-content/uploads/2012/12/221916-kitten_kitten_paw.jpg" alt="Cat 3"></a>
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; page for those who love cats.</p>
+    </footer>
+
+    <script>
+        // Initialize lightbox plugin
+        lightbox.option({
+            'resizeDuration': 200,
+            'wrapAround': true
+        });
+    </script>
+</body>
+</html>

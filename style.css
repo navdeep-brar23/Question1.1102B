@@ -1,0 +1,103 @@
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+	.side-image {
+        display: none; /* Hide side images on small screens */
+    }
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+	
+    background-image: url('https://s30385.pcdn.co/wp-content/uploads/2020/07/2008_CN_bigstock-cat-paws-3425109.jpg.optimal.jpg'); /* Add background image for body */
+    background-size: cover;
+    background-position: center;
+    color: orange; /* Default text color */
+	
+}
+
+
+
+
+nav  {
+    background-color: gray; /* Different color for navigation */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+.content {
+    max-width: 800px;
+    margin: 20px auto;
+    padding: 0 20px;
+}
+
+header {
+    background-color: lightblue;
+    color: blue;
+    text-align: center;
+    padding: 20px 0;
+}
+footer {
+    background-color: lightblue;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
+
+#backButton {
+    margin-top: 20px;
+}
+content {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    text-align: justify;
+    position: relative;
+}
+
+.side-image {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    width: 150px; /* Set width */
+    height: auto; /* Maintain aspect ratio */
+}
+
+.side-image:first-child {
+    left: 20px; /* Adjust left position */
+}
+
+.side-image:last-child {
+    right: 20px; /* Adjust right position */
+}
+
+blog-post {
+    margin-bottom: 30px;
+	
+}
+h2 {
+    color: #9932CC; /* Header color */
+}
+
+h3 {
+    color: #4CAF50; /* Subheader color */
+}
+
+info-link {
+    color: #ff5733; /* Link color */
+    text-align: center;
+    margin-top: 30px;
+}

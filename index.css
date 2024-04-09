@@ -1,0 +1,77 @@
+
+    body {
+    background-image: url('https://th.bing.com/th/id/OIP.fyZMY100ZoNwylp0MrNeygAAAA?rs=1&pid=ImgDetMain'); /* Add background image for body */
+    background-size: cover;
+    background-position: center;
+    color: blue; /* Default text color */
+	
+}
+class
+{
+	font-size:300px;
+}
+nav  {
+    background-color: gray; /* Different color for navigation */
+    padding: 10px;
+    text-align: center;
+}
+
+
+@media only screen and (max-width: 600px) {
+    .container {
+        padding: 10px;
+    }
+}
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 20px;
+}
+
+content {
+    padding: 30px;
+}
+
+
+h2 {
+    color: #ff1493; /* Different color for h2 */
+}
+
+h3 {
+    color: #008000; /* Different color for h3 */
+}
+
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.gallery-item {
+    margin: 10px;
+}
+
+.gallery-item img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 5px;
+    cursor: pointer;
+}
+header {
+    background-color: lightblue;
+    color: blue;
+    text-align: center;
+    padding: 20px 0;
+}
+footer {
+    background-color: lightblue;
+    color: #333;
+    text-align: center;
+    padding: 20px 0;
+}
